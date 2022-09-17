@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus Project</title>
+</head>
+<body>
+    <h2>Lotus Project</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=>
+</form>
+<label for="Geburthtag">Geburthtag:</label><br>
+  <input type="text" id="geburthtag" name="gebuthtag" value=><br>
+  <label for="Geburthland">Geburthland:</label><br>
+  <input type="text" id="Geburthland" Geburthland="Geburthland" value=>
+
+  
+</form>
+<p>Wählen Sie Ihre beste Unterricht:</p>
+<form>
+      <input type="radio" id="html" name="fav_unterricht" value="Mathe">
+      <label for="Mathe">Mathe</label><br>
+      <input type="radio" id="programmiren" name="fav_unterricht" value="programmiren">
+      <label for="programmiren">programmiren</label><br>
+      <input type="radio" id="Deutsch" name="fav_unterricht" value="Deutsch">
+      <label for="Deutsch">Deutsch</label>
+    </form> 
+
+    <p>Wählen Sie:</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="studiere">
+  <label for="vehicle1"> Ich studiere</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Arbeite">
+  <label for="vehicle2"> Ich Arbeite</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Alls Hoppy</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+<form action="/action_page.php">
+    <label for="cars">Wählen Sie die Sprache</label>
+    <select id="cars" name="cars">
+      <option value="Deutsch">Deutsch</option>
+      <option value="Englisch">Englisch</option>
+      <option value="Arabisch">Arabisch</option>
+      <option value="Türkisch">Türkisch</option>
+    </select>
+    <input type="submit">
+  </form>
+  <p>Was wollen sie heir Über sie Schreiben</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="20" cols="40">....</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+<p>In welche sttat wohnen sie .</p>
+
+<form action="/action_page.php">
+  <input list="statt" name=statt">
+  <datalist id="statt">
+    <option value="Berlin">
+    <option value="Frankfurt">
+    <option value="Hamburg">
+    <option value="Münschen">
+    
+  </datalist>
+  <input type="submit">
+</form>
+
+<form action="/action_page.php">
+    <fieldset>
+      <legend>kontodaten:</legend>
+      <label for="BANK">BANK:</label><br>
+      <input type="text" id="BANK" name="BANK" value=""><br>
+      <label for="ID">ID:</label><br>
+      <input type="text" id="ID" name="ID" value=""><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+
+  <p>Ihre kenntnisstand der Deutschen Sprache.</p>
+
+  <form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range" id="a" name="a" value="10">
+    100 +
+    <input type="number" id="b" name="b" value="10">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    <input type="submit">
+
+</body>
+</html>
